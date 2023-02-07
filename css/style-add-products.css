@@ -1,0 +1,240 @@
+body {
+    background: #EDEDED;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+/*CABECERA - MENÚ */
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    margin-left: -24px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.menu_alura {
+    display: flex;
+    background: white;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px
+}
+
+.buscar {
+    background: #EDEDED;
+    border: none;
+    border-radius: 22px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    width: 410px;
+}
+
+#search {
+    display: block;
+    height: 40px;
+    color: lightgray;
+    margin-left: -33px;
+    margin-top: 30px;
+    width: 20px;
+}
+
+/* BOTÓN - MENÚ ADMINISTRADOR */
+.btn {
+    background: blue;
+    border: 2px solid #2A7AE4;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    width: 170px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+    width: 170px;
+}
+
+/* CAMPO PARA SUBIR UNA IMAGEN */
+
+/*.container {
+    display: flex;
+    height: 100%;
+}
+
+.card {
+    border: 1px solid #000;
+    height: 20rem;
+    margin-left: 100px;
+    margin-top: 110px;
+    position: relative;    
+    width: 20rem;
+}
+
+.card-footer {
+    background: #2A7AE4;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    padding: 9px;
+    position: absolute;
+    text-align: center;
+}*/
+
+/* TITULO DE AGREGAR PRODUCTO - FORMULARIO PARA AGREGAR IMAGEN */
+.agregar-producto {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 900px;
+}
+
+.titulo {
+    margin-left: 450px;
+    text-align: center;
+}
+
+.nombre-producto, .precio-producto, .descripcion-producto, .url-producto {
+    border: none;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 15px;
+    height: 40px;
+    outline: none;
+}
+
+.boton-agregarProducto {
+    align-content: center;
+    background: blue;
+    border: 2px solid #2A7AE4;
+    border-radius: 12px;
+    color: white;
+    height: 40px;
+    margin-left: 450px;
+    margin-top: 20px;
+    padding-top: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* RODAPIE DE CONTACTO - IMAGEN - PÁRRAFOS - FONDO DEL FORMULARIO*/
+.form {
+    background: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    display: inline;
+    margin-bottom: -20px;
+    margin-left: -6px;
+    margin-top: 180px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;   
+}
+
+.form-mensaje {
+    text-align: justify;
+}
+
+.habla-nosotros {
+    color: #565658;
+    margin-left: 215px;
+    text-decoration: none;
+}
+
+.hable-nosotros {
+    color: #565658;
+    margin-left: 540px;
+    text-decoration: none;
+}
+
+.img-alurageek {
+    margin-left: 130px;   
+    margin-top: 40px; 
+    width: 190px;
+}
+
+/* RODAPIE DE CONTACTO - FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -245px;
+    padding: 20px;
+}
+
+.enviar-mensaje {
+    color: #565658;;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.nombre {
+    border: none;
+    border-radius: 14px;
+    margin-top: -10px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.mensaje {
+    border: none;
+    border-radius: 14px;
+    margin-top: 25px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.enviar {
+    background: #000000;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+/* RODAPIE DEL DESARROLLADOR DE LA PAGINA WEB */
+.pie-de-pagina{
+    background: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -6px;
+    margin-top: 590px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+}
+
+.copy {
+    width: 100%;
+}
+
+.copyright{
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+}
